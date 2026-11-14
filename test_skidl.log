@@ -1,0 +1,17 @@
+WARNING: KICAD6_SYMBOL_DIR environment variable is missing, so the default KiCad symbol libraries won't be searched. @ [D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\<frozen importlib._bootstrap_external>:759=>D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\<frozen importlib._bootstrap>:491]
+WARNING: KICAD7_SYMBOL_DIR environment variable is missing, so the default KiCad symbol libraries won't be searched. @ [D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\<frozen importlib._bootstrap_external>:759=>D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\<frozen importlib._bootstrap>:491]
+WARNING: KICAD9_SYMBOL_DIR environment variable is missing, so the default KiCad symbol libraries won't be searched. @ [D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\<frozen importlib._bootstrap_external>:759=>D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\<frozen importlib._bootstrap>:491]
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+ERROR: No footprint for R/R1 added at D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\test_skidl.py:12.
+ERROR: No footprint for C/C1 added at D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\test_skidl.py:13.
+WARNING: Missing tag on R instantiated at D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\test_skidl.py:12.
+WARNING: Random tag A3cjSWjn3h generated for R.
+WARNING: Missing tag on C instantiated at D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\test_skidl.py:13.
+WARNING: Random tag 7I1V71tm1B generated for C.
+WARNING: Missing tag on  instantiated at D:\Charvik 2-2\Gen Ai\power-circuit-ai-lite\<frozen importlib._bootstrap>:491.
+INFO: 9 warnings found while generating netlist.
+INFO: 2 errors found while generating netlist.
+
