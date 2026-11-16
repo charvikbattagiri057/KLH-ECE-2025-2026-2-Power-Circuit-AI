@@ -1,0 +1,16 @@
+# Core API & Server
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.8.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# LLM SDK
+google-genai>=0.1.0
+
+# Circuit & Schematic Generation
+skidl>=2.0.0
+schemdraw>=0.18
+
+# Testing & Dev
+pytest>=8.0.0

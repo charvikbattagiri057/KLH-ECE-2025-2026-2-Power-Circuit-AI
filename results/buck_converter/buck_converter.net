@@ -1,0 +1,293 @@
+(export 
+  (version "D")
+  (design
+    (source "buck_converter.py")
+    (date "11/15/2026 08:28 AM")
+    (tool "SKiDL (3.0.0)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "buck_converter.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "BT1")
+      (value "13.5V")
+      (description "Multiple-cell battery")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (fields
+        (field
+          (name "Description") "Multiple-cell battery")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Hr7zLoy90B")
+        (field
+          (name "SKiDL Line") "buck_converter.py:41"))
+      (libsource
+        (lib "Device")
+        (part "Battery"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "76366efd-7d86-55bc-a2a3-499734829012"))
+    (comp
+      (ref "C1")
+      (value "22uF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "pQUFr8Q61A")
+        (field
+          (name "SKiDL Line") "buck_converter.py:59"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "edd0da5b-9fad-52de-af0c-5d7d042849fb"))
+    (comp
+      (ref "D1")
+      (value "D_Schottky")
+      (description "Schottky diode")
+      (footprint "Diode_SMD:D_SMA")
+      (fields
+        (field
+          (name "Description") "Schottky diode")
+        (field
+          (name "Footprint") "Diode_SMD:D_SMA")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "_BUub3XwTy")
+        (field
+          (name "SKiDL Line") "buck_converter.py:50"))
+      (libsource
+        (lib "Device")
+        (part "D_Schottky"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "75397177-efc3-5ad3-8293-b7e9a8be1461"))
+    (comp
+      (ref "L1")
+      (value "56uH")
+      (description "Inductor")
+      (footprint "Inductor_SMD:L_12x12mm_h6mm")
+      (fields
+        (field
+          (name "Description") "Inductor")
+        (field
+          (name "Footprint") "Inductor_SMD:L_12x12mm_h6mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Sodebg_ZfI")
+        (field
+          (name "SKiDL Line") "buck_converter.py:54"))
+      (libsource
+        (lib "Device")
+        (part "L"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "23783a10-8350-5e3b-9ced-bf36f4e5c6e1"))
+    (comp
+      (ref "Q1")
+      (value "Q_NMOS")
+      (description "N-MOSFET transistor")
+      (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (fields
+        (field
+          (name "Description") "N-MOSFET transistor")
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:TO-252-2")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "z0OrQiK0Ls")
+        (field
+          (name "SKiDL Line") "buck_converter.py:46"))
+      (libsource
+        (lib "Device")
+        (part "Q_NMOS"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c7e75e6e-aa18-5311-9c3d-616379c22d5e"))
+    (comp
+      (ref "R1")
+      (value "2.5")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "4xvJkwMNjQ")
+        (field
+          (name "SKiDL Line") "buck_converter.py:64"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "03094d15-4816-5436-bbbc-336dc33be16a"))
+    (comp
+      (ref "R2")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "6UUqaTra3f")
+        (field
+          (name "SKiDL Line") "buck_converter.py:70"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c04bc483-cb47-5a16-aec1-536e2cff3d16")))
+  (nets
+    (net
+      (code 1)
+      (name "GATE")
+      (class "Default")
+      (node
+        (ref "Q1")
+        (pin "G")
+        (pintype "INPUT"))
+      (node
+        (ref "R2")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 2)
+      (name "GND")
+      (class "Default")
+      (node
+        (ref "BT1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R2")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 3)
+      (name "SW")
+      (class "Default")
+      (node
+        (ref "D1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q1")
+        (pin "S")
+        (pintype "PASSIVE")))
+    (net
+      (code 4)
+      (name "VIN")
+      (class "Default")
+      (node
+        (ref "BT1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q1")
+        (pin "D")
+        (pintype "PASSIVE")))
+    (net
+      (code 5)
+      (name "VOUT")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R1")
+        (pin "1")
+        (pintype "PASSIVE")))))

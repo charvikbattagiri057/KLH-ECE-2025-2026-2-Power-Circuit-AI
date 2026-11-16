@@ -1,0 +1,47 @@
+{
+  "description": "Standard KiCad component symbol and footprint mappings utilized for netlist synthesis",
+  "components": {
+    "DC_Source": {
+      "symbol_lib": "Device",
+      "symbol_name": "Battery",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": ["+", "-"]
+    },
+    "Power_MOSFET_NMOS": {
+      "symbol_lib": "Device",
+      "symbol_name": "Q_NMOS",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "pins": ["D", "G", "S"]
+    },
+    "Schottky_Diode": {
+      "symbol_lib": "Device",
+      "symbol_name": "D_Schottky",
+      "footprint": "Diode_SMD:D_SMA",
+      "pins": ["K", "A"]
+    },
+    "Power_Inductor": {
+      "symbol_lib": "Device",
+      "symbol_name": "L",
+      "footprint": "Inductor_SMD:L_12x12mm_h6mm",
+      "pins": ["1", "2"]
+    },
+    "Filter_Capacitor": {
+      "symbol_lib": "Device",
+      "symbol_name": "C",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": ["1", "2"]
+    },
+    "Load_Resistor": {
+      "symbol_lib": "Device",
+      "symbol_name": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": ["1", "2"]
+    },
+    "Gate_PullDown_Resistor": {
+      "symbol_lib": "Device",
+      "symbol_name": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": ["1", "2"]
+    }
+  }
+}

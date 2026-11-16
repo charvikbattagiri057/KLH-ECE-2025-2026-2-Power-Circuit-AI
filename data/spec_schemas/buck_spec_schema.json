@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CircuitSpec",
+  "description": "Standardized schema for power electronic converter design specifications extracted by the Spec Agent",
+  "type": "object",
+  "properties": {
+    "topology": {
+      "type": "string",
+      "enum": ["buck_converter", "boost_converter", "buck_boost_converter"],
+      "description": "The DC-DC converter topology"
+    },
+    "vin_min": {
+      "type": "number",
+      "description": "Minimum input voltage in Volts"
+    },
+    "vin_max": {
+      "type": "number",
+      "description": "Maximum input voltage in Volts"
+    },
+    "vout": {
+      "type": "number",
+      "description": "Target regulated output voltage in Volts"
+    },
+    "iout_max": {
+      "type": "number",
+      "description": "Maximum load output current in Amperes"
+    },
+    "fsw": {
+      "type": "number",
+      "default": 100000,
+      "description": "Target switching frequency in Hertz (default 100 kHz)"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["CCM", "DCM"],
+      "default": "CCM",
+      "description": "Operating inductor current conduction mode"
+    }
+  },
+  "required": ["topology", "vin_min", "vin_max", "vout", "iout_max", "fsw", "mode"]
+}

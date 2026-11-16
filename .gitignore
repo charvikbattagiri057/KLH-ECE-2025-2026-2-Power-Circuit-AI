@@ -1,7 +1,32 @@
+# Virtual Environment
 venv/
+.venv/
+env/
+
+# Python bytecode & cache
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (CRITICAL: Do NOT commit credentials)
 .env
+.env.local
+.env.*.local
+
+# SKiDL / KiCad intermediate logs and generated sklib files in root
+*.erc
+*.log
+*_sklib.py
 outputs/
-*.net
-*.png
-*.svg
+
+# Prevent accidental root-level netlists and temporary files
+/*.net
+/*.png
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
